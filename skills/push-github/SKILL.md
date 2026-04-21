@@ -106,4 +106,32 @@ Pushed to GitHub
 ├── Files changed: [count]
 └── Status: ✓ Success
 
+## Error Handling
+
+### If No Changes to Commit
+
+- Message: "No changes to commit. Working directory is clean."
+- Suggest: Create a new feature or fix
+
+### If Push Fails
+
+- Show the error
+- Suggest solutions
+- Offer to retry
+
+### If Merge Conflicts
+
+- Alert: "Cannot push - merge conflicts detected"
+- Suggest: Manually resolve or create separate branch
+
+## Output Format
+
+Always show the summary in this format:
+┌─ Pushed to GitHub ─────────────────┐
+│ Branch: <branch-name>              │
+│ Commits: <count>                   │
+│ Message: <commit-message>          │
+│ Files changed: <count>             │
+│ Status: ✓ Success                  │
+└────────────────────────────────────┘
 
