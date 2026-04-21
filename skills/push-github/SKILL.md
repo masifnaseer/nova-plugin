@@ -134,4 +134,11 @@ Always show the summary in this format:
 │ Files changed: <count>             │
 │ Status: ✓ Success                  │
 └────────────────────────────────────┘
+## Summary
 
+This skill:
+- ✓ Analyzes changes automatically
+- ✓ Generates smart commit messages
+- ✓ Handles errors gracefully
+- ✓ Pre-approves git commands (no permission prompts)
+- ✓ Shows clear output
