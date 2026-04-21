@@ -1,0 +1,10 @@
+{ "hooks": 
+    { "PostToolUse": 
+        [ 
+            { "matcher": "Write|Edit", 
+                "filePattern": "*.js",
+                "hooks": [{ "type": "command", "command": "npm run lint:fix" }]
+            } 
+        ] 
+    } 
+}

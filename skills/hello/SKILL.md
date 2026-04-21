@@ -1,0 +1,1 @@
+--- description: Greet the user warmly disable-model-invocation: false --- Greet the user with a friendly message and ask how you can help them today.

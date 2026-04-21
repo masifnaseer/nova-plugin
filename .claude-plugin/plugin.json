@@ -1,0 +1,8 @@
+{ 
+    "name": "nova-plugin", 
+    "description": "My first plugin with useful skills", 
+    "version": "1.0.0", 
+    "author":{ 
+            "name": "Muhammad Asif Naseer" 
+    } 
+}
