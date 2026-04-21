@@ -100,3 +100,10 @@ Run `git push` to push the commit.
 ### Step 7: Show Summary
 
 Display what was accomplished:
+Pushed to GitHub
+├── Branch: [branch name]
+├── Commit: [commit message]
+├── Files changed: [count]
+└── Status: ✓ Success
+
+
